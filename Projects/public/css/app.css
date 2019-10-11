@@ -1,8 +1,13 @@
+div {
+  display: flex;
+    flex-wrap: wrap;
+}
+
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
     background-color: transparent;
     width: 150px;
-    height: 150px;
+    height: 250px;
     border: 1px solid #f1f1f1;
     /* border-radius: 8px; */
   }
@@ -34,26 +39,34 @@
   /* Style the front side (fallback if image is missing) */
   .flip-card-front {
     background-color: #bbb;
-    color: black;
     width: 150px;
-    height: 150px;
+    height: 250px;
   }
   
-  /* Style the back side */
-  .flip-card-back, #incineroar{
+  /* Styles the back side for the fire type pokemon */
+  .flip-card-back, #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon{
     transform: rotateY(180deg);
     width:150px;
-    height:150px;
+    height:250px;
     background-color: rgb(249, 89, 89);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
- 
-    /* position: relative; */
     overflow: hidden;
-    /* display: inline-block; */
   }
-  
+
+   /* Styles the back side for the fairy type pokemon */
+   .flip-card-back, #jigglypuff {
+    transform: rotateY(180deg);
+    width:150px;
+    height:250px;
+    background-color: rgb(124, 63, 238);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+  }
+
   .flip-card-front:before,
   .flip-card-front:after {
     content: "";
