@@ -56,16 +56,40 @@ div {
   }
 
    /* Styles the back side for the fairy type pokemon */
-   .flip-card-back, #jigglypuff {
+   .flip-card-back, #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable {
     transform: rotateY(180deg);
     width:150px;
     height:250px;
-    background-color: rgb(124, 63, 238);
+    background-color: rgb(245, 97, 195);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
   }
+
+ /* Styles the back side for the ghost type pokemon */
+ .flip-card-back, #gastly, #haunter, #gengar {
+  transform: rotateY(180deg);
+  width:150px;
+  height:250px;
+  background-color: rgb(124, 63, 238);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* Styles the back side for the psychic type pokemon */
+.flip-card-back, #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew {
+  transform: rotateY(180deg);
+  width:150px;
+  height:250px;
+  background-color:  rgb(197, 58, 151);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
 
   .flip-card-front:before,
   .flip-card-front:after {
