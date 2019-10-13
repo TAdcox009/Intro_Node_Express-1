@@ -205,3 +205,67 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
     selector.innerHTML = pokeIMG;
 }
     );
+
+     // braixen
+var _condition = "pokemon"
+var _pocketmonster = "braixen"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    // console.log(img)
+    selector = document.querySelector('#braixen');
+    pokeIMG = `<img src="${img.front_default}" id="braixen">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // litten
+var _condition = "pokemon"
+var _pocketmonster = "litten"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    // console.log(img)
+    selector = document.querySelector('#litten');
+    pokeIMG = `<img src="${img.front_default}" id="litten">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // flareon
+var _condition = "pokemon"
+var _pocketmonster = "flareon"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    // console.log(img)
+    selector = document.querySelector('#flareon');
+    pokeIMG = `<img src="${img.front_default}" id="flareon">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // torracat
+var _condition = "pokemon"
+var _pocketmonster = "torracat"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    // console.log(img)
+    selector = document.querySelector('#torracat');
+    pokeIMG = `<img src="${img.front_default}" id="torracat">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
