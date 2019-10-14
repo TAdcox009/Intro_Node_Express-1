@@ -7,7 +7,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#gastly');
       pokeIMG = `<img src="${img.front_default}" id="gastly">`;
       selector.innerHTML = pokeIMG;
@@ -23,7 +22,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#haunter');
       pokeIMG = `<img src="${img.front_default}" id="haunter">`;
       selector.innerHTML = pokeIMG;
@@ -39,7 +37,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#gengar');
       pokeIMG = `<img src="${img.front_default}" id="gengar">`;
       selector.innerHTML = pokeIMG;
@@ -55,7 +52,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#misdreavus');
       pokeIMG = `<img src="${img.front_default}" id="misdreavus">`;
       selector.innerHTML = pokeIMG;
@@ -71,7 +67,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#shuppet');
       pokeIMG = `<img src="${img.front_default}" id="shuppet">`;
       selector.innerHTML = pokeIMG;
@@ -87,7 +82,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#banette');
       pokeIMG = `<img src="${img.front_default}" id="banette">`;
       selector.innerHTML = pokeIMG;
@@ -103,7 +97,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#duskull');
       pokeIMG = `<img src="${img.front_default}" id="duskull">`;
       selector.innerHTML = pokeIMG;
@@ -119,7 +112,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#dusclops');
       pokeIMG = `<img src="${img.front_default}" id="dusclops">`;
       selector.innerHTML = pokeIMG;
@@ -135,7 +127,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#mismagius');
       pokeIMG = `<img src="${img.front_default}" id="mismagius">`;
       selector.innerHTML = pokeIMG;
@@ -151,7 +142,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#dusknoir');
       pokeIMG = `<img src="${img.front_default}" id="dusknoir">`;
       selector.innerHTML = pokeIMG;
@@ -167,7 +157,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#yamask');
       pokeIMG = `<img src="${img.front_default}" id="yamask">`;
       selector.innerHTML = pokeIMG;
@@ -183,7 +172,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#cofagrigus');
       pokeIMG = `<img src="${img.front_default}" id="cofagrigus">`;
       selector.innerHTML = pokeIMG;
@@ -199,7 +187,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#drifloon');
       pokeIMG = `<img src="${img.front_default}" id="drifloon">`;
       selector.innerHTML = pokeIMG;
@@ -215,7 +202,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#drifblim');
       pokeIMG = `<img src="${img.front_default}" id="drifblim">`;
       selector.innerHTML = pokeIMG;
@@ -231,7 +217,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#spiritomb');
       pokeIMG = `<img src="${img.front_default}" id="spiritomb">`;
       selector.innerHTML = pokeIMG;
@@ -247,7 +232,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#litwick');
       pokeIMG = `<img src="${img.front_default}" id="litwick">`;
       selector.innerHTML = pokeIMG;
@@ -263,7 +247,6 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      // console.log(img)
       selector = document.querySelector('#lampent');
       pokeIMG = `<img src="${img.front_default}" id="lampent">`;
       selector.innerHTML = pokeIMG;

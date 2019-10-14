@@ -7,7 +7,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#slowpoke');
     pokeIMG = `<img src="${img.front_default}" id="slowpoke">`;
     selector.innerHTML = pokeIMG;
@@ -23,7 +22,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#slowbro');
     pokeIMG = `<img src="${img.front_default}" id="slowbro">`;
     selector.innerHTML = pokeIMG;
@@ -39,7 +37,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#starmie');
     pokeIMG = `<img src="${img.front_default}" id="starmie">`;
     selector.innerHTML = pokeIMG;
@@ -55,7 +52,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#exeggcute');
     pokeIMG = `<img src="${img.front_default}" id="exeggcute">`;
     selector.innerHTML = pokeIMG;
@@ -71,7 +67,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#exeggutor');
     pokeIMG = `<img src="${img.front_default}" id="exeggutor">`;
     selector.innerHTML = pokeIMG;
@@ -87,7 +82,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#jynx');
     pokeIMG = `<img src="${img.front_default}" id="jynx">`;
     selector.innerHTML = pokeIMG;
@@ -103,7 +97,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#abra');
     pokeIMG = `<img src="${img.front_default}" id="abra">`;
     selector.innerHTML = pokeIMG;
@@ -119,7 +112,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#kadabra');
     pokeIMG = `<img src="${img.front_default}" id="kadabra">`;
     selector.innerHTML = pokeIMG;
@@ -135,7 +127,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#alakazam');
     pokeIMG = `<img src="${img.front_default}" id="alakazam">`;
     selector.innerHTML = pokeIMG;
@@ -151,7 +142,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#drowzee');
     pokeIMG = `<img src="${img.front_default}" id="drowzee">`;
     selector.innerHTML = pokeIMG;
@@ -167,7 +157,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#hypno');
     pokeIMG = `<img src="${img.front_default}" id="hypno">`;
     selector.innerHTML = pokeIMG;
@@ -183,7 +172,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#mewtwo');
     pokeIMG = `<img src="${img.front_default}" id="mewtwo">`;
     selector.innerHTML = pokeIMG;
@@ -199,7 +187,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#mew');
     pokeIMG = `<img src="${img.front_default}" id="mew">`;
     selector.innerHTML = pokeIMG;
@@ -215,7 +202,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#uxie');
     pokeIMG = `<img src="${img.front_default}" id="uxie">`;
     selector.innerHTML = pokeIMG;
@@ -231,7 +217,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#unown');
     pokeIMG = `<img src="${img.front_default}" id="unown">`;
     selector.innerHTML = pokeIMG;
@@ -247,7 +232,6 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
 .then(data => {
     console.log(data.sprites)
     const {...img} = data.sprites;
-    // console.log(img)
     selector = document.querySelector('#azelf');
     pokeIMG = `<img src="${img.front_default}" id="azelf">`;
     selector.innerHTML = pokeIMG;
