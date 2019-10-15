@@ -237,18 +237,3 @@
       selector.innerHTML = pokeIMG;
   }
       );
-
-       // lampent
-  var _condition = "pokemon"
-  var _pocketmonster = "lampent"
-  
-  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
-  .then( res => res.json())
-  .then(data => {
-      console.log(data.sprites)
-      const {...img} = data.sprites;
-      selector = document.querySelector('#lampent');
-      pokeIMG = `<img src="${img.front_default}" id="lampent">`;
-      selector.innerHTML = pokeIMG;
-  }
-      );
