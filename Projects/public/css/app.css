@@ -45,7 +45,7 @@
   }
 
    /* Styles the back side for the fairy type pokemon */
-   .flip-card-back, #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff, #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb, #litwick, #lampent, #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew, #uxie, #unown, #azelf, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #inferape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #darmanitan, #litwick, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #flethinder, #talonflame, #litleo, #pyroar, #volcanion, #oricorio, #salandit, #salazzle, #turtonator, #blacephalon{
+   .flip-card-back, #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff, #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb, #litwick, #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew, #uxie, #unown, #azelf, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #infernape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #fletchinder, #talonflame, #litleo, #pyroar, #volcanion, #salandit, #salazzle, #turtonator{
     transform: rotateY(180deg);
     width:150px;
     height:250px;
@@ -61,12 +61,12 @@
   }
 
   /* background for the fire type pokemon */
-  #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #inferape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #darmanitan, #litwick, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #flethinder, #talonflame, #litleo, #pyroar, #volcanion, #oricorio, #salandit, #salazzle, #turtonator, #blacephalon{
+  #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #infernape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #litwick, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #fletchinder, #talonflame, #litleo, #pyroar, #volcanion, #salandit, #salazzle, #turtonator{
     background-color: rgb(249, 89, 89);
   }
 
  /* background for the ghost type pokemon */
- #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb, #litwick, #lampent {
+ #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb {
   background-color: rgb(124, 63, 238);
 }
 
