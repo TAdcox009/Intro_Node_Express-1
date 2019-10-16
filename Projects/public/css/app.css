@@ -1,7 +1,5 @@
 .container {
-  /* do not change the width */
-  width: 47%;
-  height: 100%;
+
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -22,8 +20,8 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
+    /* transition: transform 0.8s;
+    transform-style: preserve-3d; */
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -47,7 +45,7 @@
   }
 
    /* Styles the back side for the fairy type pokemon */
-   .flip-card-back, #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff, #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb, #litwick, #lampent, #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew, #uxie, #unown, #azelf {
+   .flip-card-back, #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff, #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #gastly, #haunter, #gengar, #misdreavus, #shuppet, #banette, #duskull, #dusclops, #mismagius, #dusknoir, #yamask, #cofagrigus, #drifloon, #drifblim, #spiritomb, #litwick, #lampent, #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew, #uxie, #unown, #azelf, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #inferape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #darmanitan, #litwick, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #flethinder, #talonflame, #litleo, #pyroar, #volcanion, #oricorio, #salandit, #salazzle, #turtonator, #blacephalon{
     transform: rotateY(180deg);
     width:150px;
     height:250px;
@@ -58,12 +56,12 @@
   }
 
   /* background for the fairy type pokemon */
-  #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff {
+  #jigglypuff, #mr-mime, #wigglytuff, #clefairy, #clefable, #cleffa, #togepi, #snubbull, #granbull, #flabebe, #floette, #florges, #spritzee, #aromatisse, #swirlix, #slurpuff{
     background-color: rgb(245, 97, 195);
   }
 
   /* background for the fire type pokemon */
-  #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat{
+  #incineroar, #charizard, #moltres, #charmander, #charmeleon, #vulpix, #ninetales, #growlithe, #arcanine, #ponyta, #rapidash, #magmar, #flareon, #braixen, #litten, #torracat, #cyndaquil, #quilava, #typhlosion, #slugma, #magcargo, #houndour, #houndoom, #magby, #entei, #ho-oh, #torchic, #combusken, #blaziken, #numel, #camerupt, #torkoal, #chimchar, #monferno, #inferape, #magmortar, #heatran, #victini, #tepig, #pignite, #emboar, #pansear, #simisear, #darumaka, #darmanitan, #litwick, #lampent, #chandelure, #heatmor, #larvesta, #volcarona, #reshiram, #fennekin, #delphox, #flethinder, #talonflame, #litleo, #pyroar, #volcanion, #oricorio, #salandit, #salazzle, #turtonator, #blacephalon{
     background-color: rgb(249, 89, 89);
   }
 
@@ -76,66 +74,7 @@
 #slowpoke, #slowbro, #starmie, #exeggcute, #exeggutor, #jynx, #abra, #kadabra, #alakazam, #drowzee, #hypno, #mewtwo, #mew, #uxie, #unown, #azelf {
   background-color:  rgb(197, 58, 151);
 }
-
-  .flip-card-front:before,
-  .flip-card-front:after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-  }
-  .flip-card-front:after {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/13471/sparkles.gif");
-    mix-blend-mode: color-dodge;
-    animation: holoSparkle 20s ease infinite;
-  }
-  
-  @keyframes holoSparkle {
-    0% {
-      opacity: 0;
-    }
-    12% {
-      opacity: 1;
-    }
-    70% {
-      opacity: 0.5;
-    }
-    95% {
-      opacity: 0.2;
-    }
-  }
-  
-  @keyframes holoGradient {
-    3% {
-      opacity: 0;
-    }
-    5% {
-      background-position: 0% 0%;
-    }
-    7% {
-      opacity: 0.5;
-    }
-    9% {
-      background-position: 100% 100%;
-    }
-    11% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0;
-      background-position: 100% 100%;
-    }
-    55% {
-      opacity: 0.3;
-    }
-    70% {
-      opacity: 0;
-      background-position: 0% 0%;
-    }
-  }
-  
+ 
   body {
     font-family: "Heebo", sans-serif;
     display: flex;

@@ -252,3 +252,288 @@ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
     selector.innerHTML = pokeIMG;
 }
     );
+
+     // cyndaquil
+var _condition = "pokemon"
+var _pocketmonster = "cyndaquil"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#cyndaquil');
+    pokeIMG = `<img src="${img.front_default}" id="cyndaquil">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      //quilava 
+var _condition = "pokemon"
+var _pocketmonster = "quilava"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#quilava');
+    pokeIMG = `<img src="${img.front_default}" id="quilava">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      // typhlosion
+var _condition = "pokemon"
+var _pocketmonster = "typhlosion"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#typhlosion');
+    pokeIMG = `<img src="${img.front_default}" id="typhlosion">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      // slugma
+var _condition = "pokemon"
+var _pocketmonster = "slugma"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#slugma');
+    pokeIMG = `<img src="${img.front_default}" id="slugma">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      // magcargo
+var _condition = "pokemon"
+var _pocketmonster = "magcargo"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#magcargo');
+    pokeIMG = `<img src="${img.front_default}" id="magcargo">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      // houndour
+var _condition = "pokemon"
+var _pocketmonster = "houndour"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#houndour');
+    pokeIMG = `<img src="${img.front_default}" id="houndour">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+      // houndoom
+var _condition = "pokemon"
+var _pocketmonster = "houndoom"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#houndoom');
+    pokeIMG = `<img src="${img.front_default}" id="houndoom">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+    // magby
+var _condition = "pokemon"
+var _pocketmonster = "magby"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#magby');
+    pokeIMG = `<img src="${img.front_default}" id="magby">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // entei
+var _condition = "pokemon"
+var _pocketmonster = "entei"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#entei');
+    pokeIMG = `<img src="${img.front_default}" id="entei">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // ho-oh
+var _condition = "pokemon"
+var _pocketmonster = "ho-oh"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#ho-oh');
+    pokeIMG = `<img src="${img.front_default}" id="ho-oh">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // torchic
+var _condition = "pokemon"
+var _pocketmonster = "torchic"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#torchic');
+    pokeIMG = `<img src="${img.front_default}" id="torchic">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // combusken
+var _condition = "pokemon"
+var _pocketmonster = "combusken"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#combusken');
+    pokeIMG = `<img src="${img.front_default}" id="combusken">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // blaziken
+var _condition = "pokemon"
+var _pocketmonster = "blaziken"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#blaziken');
+    pokeIMG = `<img src="${img.front_default}" id="blaziken">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+ // numel
+ var _condition = "pokemon"
+ var _pocketmonster = "numel"
+ 
+ fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+ .then( res => res.json())
+ .then(data => {
+     console.log(data.sprites)
+     const {...img} = data.sprites;
+     selector = document.querySelector('#numel');
+     pokeIMG = `<img src="${img.front_default}" id="numel">`;
+     selector.innerHTML = pokeIMG;
+ }
+     );
+      // camerupt
+var _condition = "pokemon"
+var _pocketmonster = "camerupt"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#camerupt');
+    pokeIMG = `<img src="${img.front_default}" id="camerupt">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // torkoal
+var _condition = "pokemon"
+var _pocketmonster = "torkoal"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#torkoal');
+    pokeIMG = `<img src="${img.front_default}" id="torkoal">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // chimchar
+var _condition = "pokemon"
+var _pocketmonster = "chimchar"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#chimchar');
+    pokeIMG = `<img src="${img.front_default}" id="chimchar">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // monferno
+var _condition = "pokemon"
+var _pocketmonster = "monferno"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#monferno');
+    pokeIMG = `<img src="${img.front_default}" id="monferno">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
+     // infernape
+var _condition = "pokemon"
+var _pocketmonster = "infernape"
+
+fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+.then( res => res.json())
+.then(data => {
+    console.log(data.sprites)
+    const {...img} = data.sprites;
+    selector = document.querySelector('#infernape');
+    pokeIMG = `<img src="${img.front_default}" id="infernape">`;
+    selector.innerHTML = pokeIMG;
+}
+    );
+
