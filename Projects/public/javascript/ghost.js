@@ -223,7 +223,7 @@
   }
       );
 
-       // litwick
+       // litwick2
   var _condition = "pokemon"
   var _pocketmonster = "litwick"
   
@@ -232,8 +232,128 @@
   .then(data => {
       console.log(data.sprites)
       const {...img} = data.sprites;
-      selector = document.querySelector('#litwick');
-      pokeIMG = `<img src="${img.front_default}" id="litwick">`;
+      selector = document.querySelector('#litwick2');
+      pokeIMG = `<img src="${img.front_default}" id="litwick2">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+      // lampent2
+  var _condition = "pokemon"
+  var _pocketmonster = "lampent"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#lampent2');
+      pokeIMG = `<img src="${img.front_default}" id="lampent2">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+      // chandelure2
+  var _condition = "pokemon"
+  var _pocketmonster = "chandelure"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#chandelure2');
+      pokeIMG = `<img src="${img.front_default}" id="chandelure2">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+      // shedinja
+  var _condition = "pokemon"
+  var _pocketmonster = "shedinja"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#shedinja');
+      pokeIMG = `<img src="${img.front_default}" id="shedinja">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+      // sableye
+  var _condition = "pokemon"
+  var _pocketmonster = "sableye"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#sableye');
+      pokeIMG = `<img src="${img.front_default}" id="sableye">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+         // froslass
+  var _condition = "pokemon"
+  var _pocketmonster = "froslass"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#froslass');
+      pokeIMG = `<img src="${img.front_default}" id="froslass">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+         // rotom
+  var _condition = "pokemon"
+  var _pocketmonster = "rotom"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#rotom');
+      pokeIMG = `<img src="${img.front_default}" id="rotom">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+         // frillish
+  var _condition = "pokemon"
+  var _pocketmonster = "frillish"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#frillish');
+      pokeIMG = `<img src="${img.front_default}" id="frillish">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+         // jellicent
+  var _condition = "pokemon"
+  var _pocketmonster = "jellicent"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#jellicent');
+      pokeIMG = `<img src="${img.front_default}" id="jellicent">`;
       selector.innerHTML = pokeIMG;
   }
       );
