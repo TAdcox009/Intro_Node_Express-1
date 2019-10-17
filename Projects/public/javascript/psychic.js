@@ -13,7 +13,6 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-
 // slowpoke
 var _condition = "pokemon"
 var _pocketmonster = "slowpoke"
