@@ -357,3 +357,63 @@
       selector.innerHTML = pokeIMG;
   }
       );
+
+      // golett
+  var _condition = "pokemon"
+  var _pocketmonster = "golett"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#golett');
+      pokeIMG = `<img src="${img.front_default}" id="golett">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+       // golurk
+  var _condition = "pokemon"
+  var _pocketmonster = "golurk"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#golurk');
+      pokeIMG = `<img src="${img.front_default}" id="golurk">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+       // honedge
+  var _condition = "pokemon"
+  var _pocketmonster = "honedge"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#honedge');
+      pokeIMG = `<img src="${img.front_default}" id="honedge">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
+
+       // doubleade
+  var _condition = "pokemon"
+  var _pocketmonster = "doubleade"
+  
+  fetch(`https://pokeapi.co/api/v2/${_condition}/${_pocketmonster}`)
+  .then( res => res.json())
+  .then(data => {
+      console.log(data.sprites)
+      const {...img} = data.sprites;
+      selector = document.querySelector('#doubleade');
+      pokeIMG = `<img src="${img.front_default}" id="doubleade">`;
+      selector.innerHTML = pokeIMG;
+  }
+      );
